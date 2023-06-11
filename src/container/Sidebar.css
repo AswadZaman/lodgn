@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+.sidebar-container{
+min-width: 250px;
+background: #FFFFFF;
+box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.25);
+height: 1117px;
+}
+.sidebar-heading{
+font-family: 'Lato';
+font-style: italic;
+font-weight: 800;
+font-size: 35.4809px;
+line-height: 43px;
+color: #323232;
+margin: 37px 38px;
+}
+.link-container{
+        padding: 26px 19px;
+}
+.sidebar-item{
+   
+    text-decoration: none;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 22.8024px;
+line-height: 34px;
+letter-spacing: -0.02em;
+height: 34px;
+color: #494949;
+
+}
+.sidebar-item-active{
+       text-decoration: none;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 22.8024px;
+line-height: 34px;
+letter-spacing: -0.02em;
+height: 34px;
+color: #72AA83;
+
+}
+.sidebar-item-bottom{
+    max-width: 190px;
+    border: 1px solid rgba(0, 0, 0, 0.29);
+    margin: auto;
+}
+.sidebar-button-container{
+    width: 210px;
+    margin: auto;
+    margin-top: 442px;
+}
+.contact-heading{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 17.5894px;
+line-height: 21px;
+letter-spacing: -0.07em;
+margin-top: 10px;
+color: #494949;
+}
+.contact-number{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 17.5894px;
+line-height: 21px;
+letter-spacing: -0.07em;
+margin-top: 5px;
+color: #494949;
+
+}
+h6,h5{
+    margin: 0;
+}
+.text-alighn-center{
+    text-align: center;
+}

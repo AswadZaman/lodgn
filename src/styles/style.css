@@ -1,0 +1,246 @@
+.button {
+  /* background: linear-gradient(180deg, #48AF78 0%, #42996B 100%); */
+  border-radius: 10px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+
+.dashboard-main-container {
+  position: relative;
+  background: #d9d9d9;
+  width: 100%;
+  padding: 75px 5%;
+}
+.layout-container {
+  display: flex;
+}
+.dashboard-container {
+  margin: auto;
+}
+.request-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28.5557px;
+  line-height: 43px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #72aa83;
+}
+h3 {
+  margin: 0;
+}
+.first-table {
+  max-width: 1000px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  min-height: 226px;
+  margin-top: 40px;
+}
+.heading-table {
+  margin-top: 48px;
+  margin-bottom: 34px;
+}
+.table-headingcontainer {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+}
+.table-heading {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29.3972px;
+  line-height: 35px;
+  letter-spacing: -0.015em;
+  color: #48af78;
+}
+.heading-description {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.9257px;
+  line-height: 20px;
+  letter-spacing: -0.005em;
+  margin-top: -1px;
+  color: #959595;
+}
+.table-headingcontainer .sigle-heading:nth-child(2) {
+  border-left: 1.3193px solid rgba(0, 0, 0, 0.3);
+  border-right: 1.3193px solid rgba(0, 0, 0, 0.3);
+  padding: 0 41px;
+}
+.table-heading-border {
+  border-left: 1.3193px solid rgba(0, 0, 0, 0.3);
+  /* transform: rotate(90deg); */
+}
+.date-padding {
+  padding: 0 20px;
+}
+
+.first-table-progressbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 972px;
+  min-height: 42px;
+  border: 1px solid #959595;
+  border-radius: 24px;
+  overflow: hidden;
+  margin: 12px 34px;
+}
+.recieved {
+  padding-left: 23px;
+  background-color: #fdf307;
+  width: 35%;
+  min-height: 41px;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #959595;
+}
+.nego {
+  width: 30%;
+  min-height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-right: 1px solid #959595;
+}
+.complete {
+  text-align: center;
+  width: 35%;
+  min-height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second-table {
+  max-width: 1000px;
+  min-height: 526px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+  padding: 37px 41px;
+  margin-top: 61px;
+}
+.second-table-heading-container {
+  max-width: 715px;
+}
+.complete-progress {
+  max-width: 715px;
+  height: 48px;
+  background: #44a16f;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  padding-left: 31px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.096px;
+  line-height: 19px;
+  letter-spacing: -0.07em;
+
+  color: #ffffff;
+  margin-top: 38px;
+}
+.card-container {
+  position: relative;
+  max-width: 275px;
+  height: 220px;
+  background: #f5f4f4;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-radius: 10px;
+  margin-top: 62px;
+}
+.logo-blk {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 22px;
+}
+.manage-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.badge {
+  position: absolute;
+  background: #d96a6b;
+  border-radius: 10px;
+  top: -21px;
+  right: -37px;
+}
+.logo-description {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 19.1247px;
+  line-height: 29px;
+  margin-top: 10px;
+  margin-bottom: 11px;
+  /* identical to box height */
+
+  letter-spacing: -0.01em;
+
+  color: #85c371;
+}
+.card {
+  box-sizing: border-box;
+  max-width: 275px;
+  min-height: 93px;
+  background: #eeeeee;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 11px 15px;
+}
+.card-tag {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.5894px;
+  line-height: 21px;
+  letter-spacing: -0.07em;
+  color: #959595;
+  text-align: center;
+}
+
+.price-and-booknow {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+.block {
+  display: block;
+}
+.chating {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #44a16f;
+  border: 1px solid #69ac80;
+  bottom: 150px;
+  right: 3px;
+}
+.chat-icon {
+  width: 41px;
+  height: 31px;
+}
